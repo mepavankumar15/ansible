@@ -1,0 +1,10 @@
+- name: demo on conditions
+  hosts: local
+  connection: local
+  vars:
+    NO_OF_SESSIONS: 140
+  tasks: 
+  - name: conditions  check live or not
+    ansible.builtin.debug:
+      msg: "yes"
+    when: NO_OF_SESSIONS == 140
