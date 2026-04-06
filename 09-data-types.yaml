@@ -1,0 +1,23 @@
+- name: dataa types
+  hosts: local
+  connection: local
+  vars:
+    PROGRAM: "DevSecOps with AWS" #string
+    DURATION: 140 #int 
+    is_LIVE: true #bool
+    DETAILS: #maps/dict
+      MONTHS: 4
+      TRAINER: "SIVA"
+    TOPICS: # list -/[]
+    - linux
+    - Shell
+    - Ansible
+  tasks:
+  - name: print  variable
+    ansible.builtin.debug:
+      msg: |
+        program : {{PROGRAM}}
+        {{DURATION}}
+        {{is_LIVE}}
+        {{DETAILS}}
+        {{TOPICS}}
