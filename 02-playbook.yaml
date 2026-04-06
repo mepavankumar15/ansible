@@ -4,8 +4,4 @@
   - name: print hello world
     ansible.builtin.debug:
       msg: "Hello World!"
-      
-  - name: install nginx
-    ansible.buildin.package:
-      name: nginx
-      state: present
+
