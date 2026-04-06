@@ -1,0 +1,30 @@
+- name: "PAvan kumar k"
+  dob: "2005"
+  mobileNo: 9032242223
+  addresses:
+  - flatNo: 401
+    street: "silpa"
+    city: "hyd"
+    type: "curr"
+
+  - flatNo: 401
+    street: "silpa"
+    city: "hyd"
+    type: "perm"
+
+- name: "avyukth nandha k"
+  dob: "2005"
+  mobileNo: 9032242223
+  addresses:
+  - flatNo: 401
+    street: "silpa"
+    city: "hyd"
+    type: "curr"
+
+  - flatNo: 401
+    street: "silpa"
+    city: "hyd"
+    type: "perm"
+
+  
+
