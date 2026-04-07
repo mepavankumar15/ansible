@@ -5,4 +5,4 @@
   tasks:
   - name: filter files_output
     ansible.builtin.debug:
-      msg: "Hi Sivakumar , {{ GREETING }}"
+      msg: "Hi Sivakumar , {{ GREETING | default('good morning') }}" # it is a default value used to place a default input in case
