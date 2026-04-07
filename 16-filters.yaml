@@ -1,0 +1,8 @@
+- name: demo of filters
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+  - name: filter files_output
+    ansible.builtin.debug:
+      msg: "Hi Sivakumar , {{ GREETING }}"
